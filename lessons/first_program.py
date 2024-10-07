@@ -1,7 +1,4 @@
-def get_ticket_price() -> int:
-    age: int = int(input("What is your age?"))
-    if age <= 12:
-        price: int = 5
-    elif age <= 60:
-        price: int = 10
-    return price
+x: list[float] = [1.0, 2.0]
+y: list[float] = [3.0, 4.0]
+y = x
+x[0] = 3.0
